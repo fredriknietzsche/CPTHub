@@ -1,3 +1,7 @@
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using System.Net.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;

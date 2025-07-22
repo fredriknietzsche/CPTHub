@@ -1,6 +1,6 @@
 # CPTHub - NASM CPT Exam Preparation Application
 
-A comprehensive Windows desktop application for NASM (National Academy of Sports Medicine) Certified Personal Trainer exam preparation, featuring AI-powered learning assistance with Google Learn LM integration.
+A comprehensive Windows desktop application designed to help you excel in your NASM (National Academy of Sports Medicine) Certified Personal Trainer exam preparation, featuring AI-powered learning assistance with Google Learn LM integration.
 
 ## 🎯 Overview
 
@@ -127,7 +127,7 @@ The application strictly follows the official NASM CPT curriculum:
 - Internet connection for AI features (optional)
 
 ### Configuration
-1. **Google Learn LM API Key** - Add your API key to `appsettings.json`:
+1. **Google Learn LM API Key** - Add your API key to [`appsettings.json`](./appsettings.json):
    ```json
    {
      "GoogleLearnLM": {
@@ -136,19 +136,19 @@ The application strictly follows the official NASM CPT curriculum:
    }
    ```
 
-2. **Privacy Settings** - Configure AI and data preferences in `appsettings.json`
+2. **Privacy Settings** - Configure AI and data preferences in [`appsettings.json`](./appsettings.json)
 
 ### Installation
 1. Clone the repository
-2. Open `CPTHub.csproj` in Visual Studio
+2. Open [`CPTHub.csproj`](./CPTHub.csproj) in Visual Studio
 3. Restore NuGet packages
-4. Configure API keys
+4. Configure API keys (see [Configuration](#configuration) section)
 5. Build and run
 
 ## 🔧 Development
 
 ### Project Structure
-```
+```text
 CPTHub/
 ├── Models/           # Data models
 ├── Services/         # Business logic services
@@ -221,9 +221,25 @@ This project is for educational purposes and NASM CPT exam preparation. Please e
 ## 🆘 Support
 
 For technical issues or questions about NASM content, please refer to:
-- NASM official resources (nasm.org)
-- Application documentation
+- [NASM official resources](https://www.nasm.org)
+- [Application documentation](#-overview)
 - Error logs in the application data folder
+
+## 📋 Table of Contents
+
+- [Overview](#-overview)
+- [Architecture](#-architecture)
+- [NASM Content Structure](#-nasm-content-structure)
+- [AI Integration Features](#-ai-integration-features)
+- [Core Features](#-core-features)
+- [Getting Started](#-getting-started)
+- [Development](#-development)
+- [Analytics & Tracking](#-analytics--tracking)
+- [Privacy & Security](#-privacy--security)
+- [Exam Preparation Strategy](#-exam-preparation-strategy)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Support](#-support)
 
 ---
 
